@@ -1,0 +1,18 @@
+{
+  "name": "fasih-foundation-arabic-camp-beta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "scss:build": "sass scss/index.scss:public/style/style.css",
+    "scss:watch": "sass --watch scss/index.scss:public/style/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrdfn20",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "sass": "^1.62.1"
+  }
+}
