@@ -219,204 +219,33 @@ body {
 
 /* pembina start */
 
-.sec-pembina .div-pembina {
-  background-color: #ffc011;
-  text-align: center;
-  padding: 5rem;
-}
-
-.sec-pembina .div-pembina .icon-pembina {
-  width: 6rem;
-  height: 6rem;
-  padding-bottom: 0%;
-}
-
-.sec-pembina .div-pembina h2 {
-  padding-top: 0%;
-}
-
-.sec-pembina .div-pembina .pembina {
-  display: flex;
-  /* display: inline-block; */
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 5rem;
-}
-
-.sec-pembina .div-pembina .pembina img {
-  width: 50%;
-  height: auto;
-  margin: 3rem 1rem 1rem;
-}
-
-.sec-pembina .div-pembina .pembina h3 {
-  margin-top: 2rem;
-}
+/* migrate to sass scss */
 
 /* pembina end */
 
 /* video embed start */
 
-.embed-vid-yt {
-  display: flex;
-  justify-content: center;
-  margin: 3rem 5rem;
-}
+/* migrate to sass scss */
 
 /* video embed end */
 
 /* pendaftaran start */
 
-.pendaftaran {
-  padding: 10rem 5% 1.4rem;
-  align-items: center;
-  background-color: #ffc011;
-}
-
-.pendaftaran h2,
-.program-kami h2,
-.kontak-kami h2 {
-  font-size: 2.6rem;
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
-.pendaftaran h2 span {
-  color: #ffff;
-}
-
-.pendaftaran .row a img {
-  display: block;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10%;
-}
+/* migrate to  */
 
 /* pendaftaran end */
 
 /* kontak kami start */
 
-.kontak-kami {
-  padding-top: 7rem;
-}
-
-.kontak-kami h2 {
-  margin-bottom: 0rem;
-}
-
-.kontak-kami p {
-  font-size: medium;
-  text-align: center;
-  margin-bottom: 0.8rem;
-}
-
-.kontak-kami .konten-kontak {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8rem 2%;
-}
-
-.konten-kontak h3 {
-  font-size: 13px;
-  margin-left: 2rem;
-  margin-right: 1rem;
-}
-
-.kontak-kami .row {
-  display: flex;
-  margin-top: 2rem;
-  background-color: #1a1d4e;
-}
-
-.kontak-kami .row .map {
-  flex: 1 1 45rem;
-  width: 100%;
-  object-fit: cover;
-  /* padding-right: 3rem; */
-}
-
-.kontak-kami .row form {
-  flex: 1 1 45rem;
-  padding: 5rem 2rem;
-  text-align: center;
-  color: var(--primary);
-}
-
-.kontak-kami .row form .input-group {
-  display: flex;
-  align-items: center;
-  margin-top: 2rem;
-  background-color: #fff;
-  border: 1px solid #ffc011;
-  padding-right: 3rem;
-  padding-left: 3rem;
-}
-
-.kontak-kami .row form .input-group input {
-  width: 100%;
-  padding: 2rem;
-  font-size: 1.7;
-  background: none;
-}
-
-.kontak-kami .row form .btn-sbmt {
-  margin-top: 3rem;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1.7rem;
-  color: #fff;
-  background-color: var(--primary);
-  cursor: pointer;
-}
+/* migrate to sass scss */
 
 /* kontak kami end */
 
 /* footer start */
-.footer {
-  background-color: var(--primary);
-  text-align: center;
-  padding: 1rem 0rem;
-  padding-bottom: 3rem;
-  margin-top: 3rem;
-}
 
-.footer .socials {
-  padding: 1rem 0rem;
-}
+/* migrate to sass scss */
 
-.footer .socials a {
-  color: #fff;
-  margin: 1rem;
-}
-
-.footer .socials a :hover,
-.footer .links a {
-  transform: scale(1.5);
-  color: #1a1d4e;
-  transition: 0.3s;
-  transition-delay: 0.1s;
-}
-
-footer .links {
-  margin-bottom: 1.4rem;
-}
-
-.footer .links a {
-  color: #ffffff;
-  padding: 0.7rem 1rem;
-}
-
-footer .credits {
-  font-size: 1.2rem;
-  color: #fff;
-}
-
-footer .credits a {
-  color: #1a1d4e;
-  font-weight: 500;
-}
+/* footer end */
 
 /* Media Queries (Responsive Break Point)*/
 /* Desktop */
